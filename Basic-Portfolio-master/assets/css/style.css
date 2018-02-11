@@ -3,46 +3,40 @@ body {
 }
 
 header {
-    width:100%;
     
     background-color:#ffffff;
     border-bottom: solid 2px;
     border-bottom-color: #cccccc;
-    overflow: hidden;
+    overflow: auto;
     margin-bottom: 20px;
 }
 #bg {
-    /* width: 1024px; */
-    width:100%;
+    width: 1024px;
     margin: 0 auto;
 
 }
 
 nav {
-    /* width: 1024px; */
-    width:100%;
+    width: 1024px;
     margin: 0 auto;
-    padding: 20px 0;
-    /* width: 100px; */
-    /* padding-right:10px;
+    width: 100px;
+    padding-right:10px;
     padding-top: 10px;
-    padding-bottom: 10px; */
+    padding-bottom: 10px;
     font-size: 18px #777777;
     float: right;
-    /* width: 200px; */
+    width: 200px;
     letter-spacing: normal;
-    text-align: center;
 }
 
 h1 {
-    width:100%;
     color:white;
     background-color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
     float: left;
     padding: 20px;  
-    /* margin-left: 80px;  */
+    margin-left: 80px; 
     display: inline-block; 
 
 }
@@ -57,13 +51,13 @@ h2,h3 {
 }
 
 .full {
-    max-width: 1024px;
+    width: 1024px;
     margin: 0 auto;
      
 }
 
 .maincontainer {
-    max-width: 960px;
+    width: 960px;
 }
 
 .container{
@@ -71,7 +65,7 @@ h2,h3 {
     background-color: #ffffff;
     margin: auto;
     border: #dddddd solid 2px;
-    max-width: 650px;
+    width: 650px;
     float: left;
     height: 600px;
     padding: 10px;
@@ -105,7 +99,7 @@ p {
 aside {
     float:right;
     margin-left: 40px;
-    max-width:270px;
+    width:270px;
     padding: 10px;
     border: #dddddd 2px solid;
     text-align: center;
@@ -209,5 +203,3 @@ h4 {
     content: "";
     clear: both;
 }
-
-
