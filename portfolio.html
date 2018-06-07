@@ -1,76 +1,103 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./assets/css/reset.css"/>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="./assets/css/reset.css"/>
     <link rel="stylesheet" href="./assets/css/style.css"/>
-    <link rel="stylesheet" href="./assets/css/media.css"/>
-    <script src="main.js"></script>
+
 </head>
 
 <body>
-    <header>
-        <h1>Zahra Falah</h1>
-        
-        <Nav>
-            <a href="./index.html">About</a> | 
-            <a href="./portfolio.html">Portfolio</a> | 
-            <a href="./contact.html">Contact</a>
-        </nav>
-        
-        <div id="bg"></div>
-    </header>    
-   
-    <section class="full">
-        <section class="main-container">
-    
-            <section class="container">
-                <h2>Portfolio</h2>
 
-                <div class="row">
-                        <div class="column">
-                          <div class="content">
-                            <img id="lab" src="./assets/images/chemlab.jpg" alt="lab">
-                            <h4>Lab Work</h4>
-                          </div>
-                        </div>
+	<header>
+		<div id="headerDiv" class="clearfix">
+			<h1>Zahra Falah</h1>
+			<nav>
+				<a class="navbar" href="index.html">About</a>
+				<a class="navbar" href="portfolio.html">Portfolio</a>
+				<a class="navbar" href="contact.html">Contact</a>
+			</nav>
+		</div>
+	</header>
 
-                        <div class="column">
-                          <div class="content">
-                            <img id="web" src="./assets/images/webdevelopment.jpg" alt="web">
-                            <h4>Web Development</h4>
-                          </div>
-                        </div>
+	<div class="contentDiv clearfix">
+		<section id="gallery" class="clearfix">
 
-                        <div class="column">
-                          <div class="content">
-                            <img id="book" src="./assets/images/91A30325.jpg" alt="book">
-                            <h4>My Books</h4>
-                          </div>
-                        </div>
-                </div>  
+			<h2 class="mainContentHeader" id="mainSectionHeader">Portfolio</h2>
+			<div class="GlobalContent">
+					<div class="galleryposition">
+							<img class="gallerypic" src="assets/images/hangman-node.png">
+							<a class="gallerylabels" href="https://github.com/zahrafalah/hangman-node.git" target="_blank">HangmanGame-node</a>
+						</div>
+					<div class="galleryposition">
+							<img class="gallerypic" src="assets/images/Unborable.png">
+							<a class="gallerylabels" href="https://github.com/zahrafalah/project-1.git" target="_blank">Unborable</a>
+						</div>
+				<div class="galleryposition">
+					<img class="gallerypic" src="assets/images/hangman.png">
+					<a class="gallerylabels" href="https://zahrafalah.github.io/hangman/" target="_blank">Hangman Game</a>
+				</div>
+				<div class="galleryposition">
+					<img class="gallerypic" src="assets/images/crystalcollector.png">
+					<a class="gallerylabels" href="https://zahrafalah.github.io/crystalcollector/" target="_blank">Crystal Game</a>
+				</div>
+				<div class="galleryposition">
+					<img class="gallerypic" src="assets/images/volentarea.png ">
+					<a class="gallerylabels" href="https://voluntarea.herokuapp.com/" target="_blank">VolentArea</a>
+				</div>
+				<div class="galleryposition">
+					<img class="gallerypic" src="assets/images/giftastics.png">
+					<a class="gallerylabels" href="https://zahrafalah.github.io/Giftastic/" target="_blank">Giftastic</a>
+				</div>
+				<div class="galleryposition">
+					<img class="gallerypic" src="assets/images/liri.png">
+					<a class="gallerylabels" href="https://github.com/zahrafalah/liri-node.git" target="_blank">Liri A New Siri</a>
+				</div>
+				<div class="galleryposition">
+					<img class="gallerypic" src="assets/images/rps-multiplayer.png">
+					<a class="gallerylabels" href=" https://zahrafalah.github.io/rps-multiplayer/" target="_blank">RPS-Multiplayer</a>
+				</div>
+				<div class="galleryposition">
+					<img class="gallerypic" src="assets/images/bamazon_db.png">
+					<a class="gallerylabels" href="https://github.com/zahrafalah/bamazon.git" target="_blank">Bamazon</a>
+				</div>
+				<div class="galleryposition">
+					<img class="gallerypic" src="assets/images/friend-finder.png">
+					<a class="gallerylabels" href="https://zahrafalah.github.io/friend-finder/" target="_blank">FriendFinder</a>
+				</div>
+				<div class="galleryposition">
+					<img class="gallerypic" src="assets/images/burger.png">
+					<a class="gallerylabels" href="https://github.com/zahrafalah/burger" target="_blank">Eat-Da-Burger</a>
+				</div>
+				<div class="galleryposition">
+					<img class="gallerypic" src="assets/images/trivia.png">
+					<a class="gallerylabels" href="https://zahrafalah.github.io/triviagame/" target="_blank">Trivia Game</a>
+				</div>
 
-
-            </section>
-
-            <aside>
-                <h3><strong>Connect with Me</strong></h3>
-                <ul>
-                   <li><a href="https://www.linkedin.com/in/sepideh-falah-33949854"><image id="linkedin" src="./assets/images/if_linkedin_square_color_107091.png"  alt="linkedin"></a></li>
-                   <li><a href="https://github.com/zahrafalah"><image id="Github" src="./assets/images/if_github_square_black_107109.png" alt="github"></a></li>
-                   <li><a href="https://stackoverflow.com/users/story/9248223"><image id="stack" src="./assets/images/if_overflow_334695.png" alt="stack"></a></li>
-                </ul>
+			</div>
+		</section>
+        <aside id="ConnectWithMe">
+                <h2 id="ConnectWithMeHeader" class="mainContentHeader">Connect with Me</h2>
+                <a href="https://github.com/zahrafalah" target="_blank">
+                    <img class="Github" src="./assets/images/if_github_square_black_107109.png" alt="github">
+                </a>
+                <a href="https://stackoverflow.com/users/story/9248223" target="_blank">
+                    <img class="stack" src="./assets/images/if_overflow_334695.png" alt="stack">
+                </a>
+                <a href="https://www.linkedin.com/in/sepideh-falah-33949854" target="_blank">
+                    <img class="Linkedin" src="./assets/images/if_linkedin_square_color_107091.png" alt="linkedin">
+                </a>
             </aside>
+	</div>
+	<div class="relative">
+		<footer id="AboutMeFooter">
+			<h3>Copyright &copy; 2018 Zahra Falah. All rights reserved.</h3>
+		</footer>
+	</div>
 
-        </section>
-   </section>
-    
-   <footer>
-            Copyright &copy; 2018 Zahra Falah. All rights reserved.<br/>
-   </footer>
-    
 </body>
+
 </html>

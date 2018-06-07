@@ -1,64 +1,64 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Me</title>
+
     <link rel="stylesheet" href="./assets/css/reset.css"/>
     <link rel="stylesheet" href="./assets/css/style.css"/>
-    <link rel="stylesheet" href="./assets/css/media.css"/>
-    <script src="main.js"></script>
+
 </head>
+
 <body>
-    <header>
-        <h1>Zahra Falah</h1>
-        
-        <Nav>
-            <a href="./index.html">About</a> | 
-            <a href="./portfolio.html">Portfolio</a> | 
-            <a href="./contact.html">Contact</a>
-        </nav>
-        
-        <div id="bg"></div>
-    </header>    
-   
-    <section class="full">
-        <section class="main-container">
-    
-            <section class="container">
-                <h2>Contact</h2>
+	<div class="container">
+		<header class="clearfix">
+			<div id="headerDiv">
+				<h1>Zahra Falah</h1>
+				<nav>
+					<a class="navbar" href="index.html">About</a>
+					<a class="navbar" href="portfolio.html"> Portfolio</a>
+					<a class="navbar" href="contact.html">Contact</a>
+				</nav>
+			</div>
+		</header>
+		<div class="contentDiv clearfix">
+			<section id="ContactForm">
+				<h2 class="mainContentHeader" id="mainSectionHeader">Contact Me</h2>
 
-                <form action="/action_page.php">
-                    <label for="fname">Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                
-                    <label for="lname">Email</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your Email...">
-                
-                    <label for="subject">Message</label>
-                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                
-                    <input type="submit" value="Submit">
-                </form>
-  
-            </section>
+				<form class="GlobalContent">
+					Name
+					<input type="text" name "name" placeholder="Your name"></input>
+					Email
+					<input type="text" name="email" placeholder="example@yahoo.com"></input>
+					Message
+					<textarea name="message" rows="10" cols="30"></textarea>
+					<input id="submitbutton" type="submit"></input>
 
-            <aside>
-                <h3><strong>Connect with Me</strong></h3>
-                <ul>
-                   <li><a href="https://www.linkedin.com/in/sepideh-falah-33949854"><image id="linkedin" src="./assets/images/if_linkedin_square_color_107091.png"  alt="linkedin"></a></li>
-                   <li><a href="https://github.com/zahrafalah"><image id="Github" src="./assets/images/if_github_square_black_107109.png" alt="github"></a></li>
-                   <li><a href="https://stackoverflow.com/users/story/9248223"><image id="stack" src="./assets/images/if_overflow_334695.png" alt="stack"></a></li>
-                </ul>
-            </aside>
+				</form>
+			</section>
 
-        </section>
-   </section>
-    
-   <footer>
-            Copyright &copy; 2018 Zahra Falah. All rights reserved.<br/>
-   </footer>
-    
+            <aside id="ConnectWithMe">
+                    <h2 id="ConnectWithMeHeader" class="mainContentHeader">Connect with Me</h2>
+                    <a href="https://github.com/zahrafalah" target="_blank">
+                        <img class="Github" src="./assets/images/if_github_square_black_107109.png" alt="github">
+                    </a>
+                    <a href="https://stackoverflow.com/users/story/9248223" target="_blank">
+                        <img class="stack" src="./assets/images/if_overflow_334695.png" alt="stack">
+                    </a>
+                    <a href="https://www.linkedin.com/in/sepideh-falah-33949854" target="_blank">
+                        <img class="Linkedin" src="./assets/images/if_linkedin_square_color_107091.png" alt="linkedin">
+                    </a>
+                </aside>
+            </div>
+        </div>
+        <div class="relative">
+            <footer id="AboutMeFooter">
+                <h3>Copyright &copy; 2018 Zahra Falah. All rights reserved.<br/></h3>
+            </footer>
+        </div>
+
 </body>
+
 </html>

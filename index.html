@@ -1,58 +1,65 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
     <link rel="stylesheet" href="./assets/css/reset.css"/>
     <link rel="stylesheet" href="./assets/css/style.css"/>
-    <link rel="stylesheet" href="./assets/css/media.css"/>
-    <script src="main.js"></script>
+    <!-- <link rel="stylesheet" href="./assets/css/media.css"/> -->
+    <!-- <script src="main.js"></script> -->
 </head>
+
 <body>
-    <section id="whole">
-        <header>
-                <div id="bg">
-                    <h1>Zahra Falah</h1>
-                        
-                    <Nav>
-                        <a href="./index.html">About</a> | 
-                        <a href="./portfolio.html">Portfolio</a> | 
-                        <a href="./contact.html">Contact</a>
-                    </nav>
-                        
+    <div class="container">
+        <header class="clearfix">
+            <div id="headerDiv">
+                <h1>Zahra Falah</h1>
+                <nav>
+                    <a class="navbar" href="index.html">About</a>
+                    <a class="navbar" href="portfolio.html">Portfolio</a>
+                    <a class="navbar" href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </header>
+        <div class="contentDiv clearfix">
+            <section id="AboutMeSection">
+                <h2 class="mainContentHeader" id="mainSectionHeader">About Me</h2>
+                <div class="GlobalContent">
+                    <img id="bioimage" src="./assets/images/photo_2018-01-24_20-00-40.jpg" alt="Zahra Falah">
+                    <p>I was born and grew up in Tehran, Iran. I got my Bachelors degree in Chemistry in 2011 and right after that, 
+                        I started working as an author of supplementary books for highschool students in a private company called 
+                        <a href="http://www.meraat.ir/">"Meraat".</a> In 2015, I decided to migrate to the United States to start a new life here.
+                         I came to U.S. and tried to get into school and follow my dreams and becoming a scientist. Since October 2016, I am working 
+                         in a chemistry research laboratory at ASU and working on the "Catalysis of dehydrogenative coupling of alcohols and hydrosilanes".
+                          My curiosity towards computer sciences led me to this fantastic bootcamp, in which I can learn Web-development as a new skill to
+                           become a full-stack developer. I found it both challenging and rewarding at the same time and this is why I enjoy it so much. </p>
+                                   
+                    </p>
+                    
                 </div>
-            </header> 
-    <section class="full">
-       
-        <section class="main-container">
-    
-            <section class="container">
-                
-                <h2><b>About Me</b></h2>
-                
-                <Image id="bioimage" src="./assets/images/photo_2018-01-24_20-00-40.jpg" alt="Zahra Falah">
-
-                <p>I was born and grew up in Tehran, Iran. I got my Bachelors degree in Chemistry in 2011 and right after that, I started working as an author of supplementary books for highschool students in a private company called <a href="http://www.meraat.ir/">"Meraat".</a> In 2015, I decided to migrate to the United States to start a new life here. I came to U.S. and tried to get into school and follow my dreams and becoming a scientist. Since October 2016, I am working in a chemistry research laboratory at ASU and working on the "Catalysis of dehydrogenative coupling of alcohols and hydrosilanes". My curiosity towards computer sciences led me to this fantastic bootcamp, in which I can learn Web-development as a new skill to become a full-stack developer. I found it both challenging and rewarding at the same time and this is why I enjoy it so much. </p>
-
             </section>
-
-            <aside>
-                <h3><strong>Connect with Me</strong></h3>
-                <ul>
-                   <li><a href="https://www.linkedin.com/in/sepideh-falah-33949854"><image id="linkedin" src="./assets/images/if_linkedin_square_color_107091.png"  alt="linkedin"></a></li>
-                   <li><a href="https://github.com/zahrafalah"><image id="Github" src="./assets/images/if_github_square_black_107109.png" alt="github"></a></li>
-                   <li><a href="https://stackoverflow.com/users/story/9248223"><image id="stack" src="./assets/images/if_overflow_334695.png" alt="stack"></a></li>
-                </ul>
-
+            <aside id="ConnectWithMe">
+                <h2 id="ConnectWithMeHeader" class="mainContentHeader">Connect with Me</h2>
+                <a href="https://github.com/zahrafalah" target="_blank">
+                    <img class="Github" src="./assets/images/if_github_square_black_107109.png" alt="github">
+                </a>
+                <a href="https://stackoverflow.com/users/story/9248223" target="_blank">
+                    <img class="stack" src="./assets/images/if_overflow_334695.png" alt="stack">
+                </a>
+                <a href="https://www.linkedin.com/in/sepideh-falah-33949854" target="_blank">
+                    <img class="Linkedin" src="./assets/images/if_linkedin_square_color_107091.png" alt="linkedin">
+                </a>
             </aside>
-        </section>
-   </section>
-    </section>
-   <footer>
-            Copyright &copy; 2018 Zahra Falah. All rights reserved.<br/>
-   </footer>
-    
+        </div>
+    </div>
+    <div class="relative">
+        <footer id="AboutMeFooter">
+            <h3>Copyright &copy; 2018 Zahra Falah. All rights reserved.<br/></h3>
+        </footer>
+    </div>
+
 </body>
+
 </html>
